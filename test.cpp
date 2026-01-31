@@ -1,0 +1,15 @@
+#include <iostream>
+int main(int argc, char const *argv[]) {
+    char name[100];
+    char surname[100];
+    std::cout << std::cin.eof() << std::endl;
+    std::cin >> name;
+    std::cout << std::cin.eof() << std::endl;
+    std::cin >> surname;
+    std::cout << std::cin.eof() << std::endl;
+    std::cout << "Hi, " << name << " " << surname << std::endl;
+    std::cout << std::cin.eof() << std::endl;
+    std::cout << std::cin.eof() << std::endl;
+    std::cout << "hi";
+    return 0;
+}
